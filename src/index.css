@@ -7,8 +7,33 @@
 }
 html, body, #root {
 	height: 100%;
+	color: white;
+	background-color: rgba(7, 7, 1, .8);
 }
-footer {
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: white
+}
+.navbar {
+	width: 100%;
+	display: flex;
+}
+.navbar nav {
+	width: 60%;
+}
+.navbar nav ul {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.inline {
+	display: flex;
+	flex-flow: row;
+}
+/* footer {
 	position: absolute;
 	bottom: 0;
-}
+} */
