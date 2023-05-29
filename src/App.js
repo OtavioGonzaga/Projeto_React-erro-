@@ -1,7 +1,7 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Home from './components/views/Home'
 import Contact from './components/views/Contact.js'
-import NewProject from './components/views/NewProject.js'
+import Projects from './components/views/Projects.js'
 import Navbar from './components/static/Navbar'
 import Footer from './components/static/Footer'
 import Container from './components/layouts/Container'
@@ -14,7 +14,7 @@ export default function App() {
 			<Routes>
 				<Route exact path='/' element={<Home />} />
 				<Route exact path='/contato' element={<Contact />} />
-				<Route exact path='/novoprojeto' element={<NewProject />} />
+				<Route exact path='/projeto' element={<Projects />} />
 			</Routes>
 		</Container>
 	</Router>

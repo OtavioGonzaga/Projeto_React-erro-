@@ -1,0 +1,15 @@
+.navbar {
+	display: flex;
+	height: 11%;
+	align-items: center;
+	background-color: #161616;
+}
+.list {
+	width: 20%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.list li:hover a {
+	color: #ffbb33;
+}

@@ -1,0 +1,33 @@
+footer {
+	display: flex;
+	background-color: #161616;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+.pree {
+	height: 100px;
+}
+.list {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.list li {
+	margin: 20px 40px;
+	font-size: 25px;
+}
+.list li:hover {
+	color: #FFBB33;
+	cursor: pointer;
+}
+p {
+	text-align: center;
+	width: 100%;
+	margin: 10px 0;
+}
+span {
+	font-weight: bold;
+	color:#FFBB33;
+	font-size: 25px;
+}
