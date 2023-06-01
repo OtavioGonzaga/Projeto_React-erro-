@@ -4,7 +4,6 @@ import {FaFacebook, FaLinkedin, FaGithub} from 'react-icons/fa'
 export default function Footer() {
 	return (
 		<>
-		<div className={style.pree}></div>
 		<footer>
 			<Container>
 				<ul className={style.list}>
@@ -12,7 +11,7 @@ export default function Footer() {
 					<li><FaLinkedin /></li>
 					<li><FaGithub /></li>
 				</ul>
-				<p><span>Costs</span> &copy;{`${new Date().getFullYear()}`}</p>
+				<p className={style.p}><span className={style.span}>Costs</span> &copy;{`${new Date().getFullYear()}`}</p>
 			</Container>
 		</footer>
 		</>	

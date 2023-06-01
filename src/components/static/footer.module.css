@@ -2,11 +2,7 @@ footer {
 	display: flex;
 	background-color: #161616;
 	width: 100%;
-	position: absolute;
-	bottom: 0;
-}
-.pree {
-	height: 100px;
+	height: 20%;
 }
 .list {
 	width: 100%;
@@ -21,12 +17,12 @@ footer {
 	color: #FFBB33;
 	cursor: pointer;
 }
-p {
+.p {
 	text-align: center;
 	width: 100%;
 	margin: 10px 0;
 }
-span {
+.span {
 	font-weight: bold;
 	color:#FFBB33;
 	font-size: 25px;
