@@ -1,9 +1,11 @@
 import style from './NewProject.module.css'
+import ProjectForm from '../project/ProjectForm'
 export default function NewProject() {
 	return (
-		<>
-		<h1>Criar Projeto</h1>
-		<p>Primeiro, crie seu projeto</p>
-		</>
+		<section className={style.section}>
+			<h1>Criar Projeto</h1>
+			<p>Crie seu projeto para adicionar os serviços</p>
+			<ProjectForm />
+		</section>
 	)
 }
