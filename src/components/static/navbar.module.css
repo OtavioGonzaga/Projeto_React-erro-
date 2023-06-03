@@ -1,5 +1,8 @@
 .navbar {
 	display: flex;
+	padding: 0 10%;
+	flex-direction: row;
+	justify-content: space-between;
 	height: 11%;
 	align-items: center;
 	background-color: #161616;

@@ -5,8 +5,8 @@ import style from './navbar.module.css'
 
 export default function Navbar() {
 	return (
-		<nav className={style.navbar}>
-			<Container>
+		<Container customClass='full'>
+			<nav className={style.navbar}>
 				<Link to='/' className={style.logo}>
 					<img src={logo} alt="" />
 					<h2>Costs</h2>
@@ -17,7 +17,7 @@ export default function Navbar() {
 					<li><Link to="/projeto">Projetos</Link></li>
 					<li><Link to="/novoprojeto">Novo Projeto</Link></li>
 				</ul>
-			</Container>
-		</nav>
+			</nav>
+		</Container>
 	)
 }
