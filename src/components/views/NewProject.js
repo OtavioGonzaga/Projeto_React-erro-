@@ -5,7 +5,7 @@ export default function NewProject() {
 		<section className={style.section}>
 			<h1>Criar Projeto</h1>
 			<p>Crie seu projeto para adicionar os serviços</p>
-			<ProjectForm />
+			<ProjectForm BtnText='Criar Projeto' />
 		</section>
 	)
 }
